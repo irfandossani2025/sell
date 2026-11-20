@@ -42,4 +42,6 @@ return [
         'currency' => strtoupper(env('PAYPAL_CURRENCY', 'USD')),
     ],
 
+    'admin_setup_password' => env('HOTPRODUCTS_ADMIN_PASSWORD'),
+
 ];
