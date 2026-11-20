@@ -1,0 +1,4 @@
+@extends('layouts.storefront', ['seoTitle' => 'Affiliate disclosure | Hot Products', 'seoDescription' => 'How affiliate links work on Hot Products.'])
+@section('content')
+<article class="legal-page section-block"><span class="eyebrow">GOOD TO KNOW</span><h1>Affiliate disclosure</h1><p>Some product links on Hot Products are affiliate links. If you choose to buy through one of these links, we may receive a commission from the retailer. This does not add a fee to your purchase.</p><p>We aim to make our relationship with retailers clear and to share products because we think they may be useful. Retailers handle their own checkout, delivery, returns and customer support.</p><p>Affiliate relationships do not guarantee a product recommendation or a particular placement. Product availability, details and prices may change on the retailer’s site.</p></article>
+@endsection

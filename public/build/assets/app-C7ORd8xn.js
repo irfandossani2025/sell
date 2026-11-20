@@ -1,0 +1,1 @@
+var e=document.querySelector(`[data-menu-toggle]`),t=document.querySelector(`[data-menu]`);e&&t&&(e.addEventListener(`click`,()=>{let n=t.classList.toggle(`is-open`);e.setAttribute(`aria-expanded`,String(n))}),t.querySelectorAll(`a`).forEach(n=>{n.addEventListener(`click`,()=>{t.classList.remove(`is-open`),e.setAttribute(`aria-expanded`,`false`)})}));
